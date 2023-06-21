@@ -1,0 +1,14 @@
+size	model_string	accuracy
+<int>	<chr>	<dbl>
+6	label ~ rms_mean+spectral_bandwidth_mean+chroma_stft_mean+zero_crossing_rate_mean+rms_var+zero_crossing_rate_var	0.8300000
+7	label ~ rms_mean+spectral_bandwidth_mean+chroma_stft_mean+zero_crossing_rate_mean+rms_var+zero_crossing_rate_var+spectral_centroid_var	0.8166667
+5	label ~ rms_mean+spectral_bandwidth_mean+chroma_stft_mean+zero_crossing_rate_mean+rms_var	0.8133333
+8	label ~ rms_mean+spectral_bandwidth_mean+chroma_stft_mean+zero_crossing_rate_mean+rms_var+zero_crossing_rate_var+spectral_centroid_var+rolloff_var	0.8133333
+9	label ~ rms_mean+spectral_bandwidth_mean+chroma_stft_mean+zero_crossing_rate_mean+rms_var+zero_crossing_rate_var+spectral_centroid_var+rolloff_var+chroma_stft_var	0.8100000
+10	label ~ rms_mean+spectral_bandwidth_mean+chroma_stft_mean+zero_crossing_rate_mean+rms_var+zero_crossing_rate_var+spectral_centroid_var+rolloff_var+chroma_stft_var+rolloff_mean	0.8100000
+11	label ~ rms_mean+spectral_bandwidth_mean+chroma_stft_mean+zero_crossing_rate_mean+rms_var+zero_crossing_rate_var+spectral_centroid_var+rolloff_var+chroma_stft_var+rolloff_mean+spectral_centroid_mean	0.8066667
+4	label ~ rms_mean+spectral_bandwidth_mean+chroma_stft_mean+zero_crossing_rate_mean	0.7966667
+12	label ~ rms_mean+spectral_bandwidth_mean+chroma_stft_mean+zero_crossing_rate_mean+rms_var+zero_crossing_rate_var+spectral_centroid_var+rolloff_var+chroma_stft_var+rolloff_mean+spectral_centroid_mean+spectral_bandwidth_var	0.7933333
+3	label ~ rms_mean+spectral_bandwidth_mean+chroma_stft_mean	0.7733333
+2	label ~ rms_mean+spectral_bandwidth_mean	0.7300000
+1	label ~ rms_mean	0.5966667
